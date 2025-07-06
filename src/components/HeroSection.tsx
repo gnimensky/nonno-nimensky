@@ -28,6 +28,7 @@ export const HeroSection = () => {
             <Button 
               size="lg" 
               className="bg-gradient-to-r from-amber-400 to-orange-400 hover:from-amber-500 hover:to-orange-500 text-slate-900 font-semibold px-8 py-3 rounded-full transition-all duration-300 transform hover:scale-105"
+              onClick={() => window.open('https://character.ai/chat/NtX3KNIexlBze8tEZx_OgRM3tOSimcwWSxVUX60303A', '_blank')}
             >
               Discover My Story
             </Button>
